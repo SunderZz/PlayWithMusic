@@ -1,0 +1,19 @@
+#mouse {
+  width: 2.6041666666666665vw;
+  height: 5.571030640668524vh;
+  background-image: url(./mouse.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: none;
+  z-index: 1;
+}
+#tapis {
+  width: 20.833333333333332vw;
+  height: 23.676880222841227vh;
+  grid-area: 1/3/2/4;
+  z-index: 0;
+  background-image: url("https://media.steelseriescdn.com/thumbs/filer_public/05/66/056692b9-9e3d-40fb-b91f-55fe15214fa2/purchase-gallery-image-dex-top.png__1920x1080_crop-fit_optimize_subsampling-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

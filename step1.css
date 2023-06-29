@@ -1,0 +1,41 @@
+.step1 {
+  background-color: black;
+  width: 75vw;
+  height: 66vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  color: white;
+  position: absolute;
+}
+#power:hover {
+  cursor: pointer;
+}
+
+/* .fleche {
+  background-image: url("https://img1.freepng.fr/20180320/rle/kisspng-arrow-computer-icons-clip-art-red-arrow-line-png-5ab19d059bfa98.5843437015215895096389.jpg");
+  grid-area: 3/3/3/3;
+  background-size: cover;
+  border: none;
+  background-color: black;
+} */
+.turnon {
+  text-align: center;
+  grid-area: 2/2/2/2;
+  animation-duration: 2s;
+  animation-name: cligne;
+  animation-iteration-count: infinite;
+}
+@keyframes cligne {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

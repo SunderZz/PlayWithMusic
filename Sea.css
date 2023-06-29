@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded";
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.main {
+  background-image: url("https://img.freepik.com/free-vector/teenager-boy-bedroom-interior-computers-desk_107791-2738.jpg?w=1380&t=st=1674513767~exp=1674514367~hmac=ece853ddc9b86bd31bbb0f4c8ef50fd328c711f9f45cc23d0852fb1a5ea1558f");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 74vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  justify-content: center;
+  justify-items: center;
+}
+@media (max-width: 1280px) {
+  .speaker1 {
+    display: none;
+  }
+  .speaker2 {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  #wave {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .keyboard {
+    display: none;
+  }
+  #tapis {
+    display: none;
+  }
+}
+@media (max-height: 645px) {
+  .keyboard {
+    display: none;
+  }
+  #tapis {
+    display: none;
+  }
+  .speaker1 {
+    display: none;
+  }
+  .speaker2 {
+    display: none;
+  }
+}
+@media (max-width: 980px) {
+  .bubble {
+    display: none;
+  }
+}
+#table {
+  grid-area: 5/1/6/7;
+  width: 100vw;
+
+  height: 26vh;
+  background-image: url("rm362-01d.jpg");
+  background-size: cover;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}

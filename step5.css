@@ -1,0 +1,174 @@
+.step5 {
+  width: 75vw;
+  height: 66vh;
+  background: linear-gradient(180deg, #04fafd 5%, #199dff 50%, #040323);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: absolute;
+  display: none;
+}
+.difficulties {
+  font-size: 40px;
+}
+#easy {
+  background: none;
+  border: none;
+  color: white;
+}
+#medium {
+  background: none;
+  border: none;
+  color: white;
+}
+#hard {
+  background: none;
+  border: none;
+  color: white;
+}
+#impossible {
+  background: none;
+  border: none;
+  color: white;
+}
+#easy:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#medium:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#hard:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#impossible:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+.ici {
+  animation: ici 8s infinite;
+  color: red;
+}
+@keyframes ici {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.bubble div {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  animation: plouc 4s linear infinite;
+  top: 10%;
+  left: 10%;
+}
+div .bulle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+.bubble div:nth-child(1) {
+  top: 20%;
+  left: 70%;
+  animation: plouc 8s linear infinite;
+}
+
+.bubble div:nth-child(2) {
+  top: 60%;
+  left: 90%;
+  animation: plouc 10s linear infinite;
+}
+.bubble div:nth-child(3) {
+  top: 66%;
+  left: 30%;
+  animation: plouc 7s linear infinite;
+}
+.bubble div:nth-child(4) {
+  top: 20%;
+  left: 10%;
+  animation: plouc 5s linear infinite;
+}
+.bubble div:nth-child(5) {
+  top: 50%;
+  left: 10%;
+  animation: plouc 9s linear infinite;
+}
+.bubble div:nth-child(6) {
+  top: 30%;
+  left: 60%;
+  animation: plouc 4s linear infinite;
+}
+.bubble div:nth-child(7) {
+  top: 70%;
+  left: 20%;
+  animation: plouc 8s linear infinite;
+}
+.bubble div:nth-child(8) {
+  top: 75%;
+  left: 60%;
+  animation: plouc 10s linear infinite;
+}
+.bubble div:nth-child(9) {
+  top: 50%;
+  left: 80%;
+  animation: plouc 6s linear infinite;
+}
+.bubble div:nth-child(10) {
+  top: 25%;
+  left: 20%;
+  animation: plouc 2s linear infinite;
+}
+.bubble div:nth-child(11) {
+  top: 25%;
+  left: 30%;
+  animation: plouc 12s linear infinite;
+}
+.bubble div:nth-child(12) {
+  top: 45%;
+  left: 30%;
+  animation: plouc 6s linear infinite;
+}
+.bubble div:nth-child(13) {
+  top: 85%;
+  left: 90%;
+  animation: plouc 7s linear infinite;
+}
+.bubble div:nth-child(14) {
+  top: 55%;
+  left: 70%;
+  animation: plouc 4s linear infinite;
+}
+@keyframes plouc {
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(1.3) translateY(-50px) rotate(360deg);
+  }
+}

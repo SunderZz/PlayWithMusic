@@ -1,0 +1,359 @@
+.step6 {
+  width: 75vw;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: absolute;
+  display: none;
+}
+.decor {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75vw;
+  height: 63vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #04fafd 5%, #199dff 50%, #040323);
+}
+
+.decorfacile {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75vw;
+  height: 63vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #348f50 5%, #56b4d3 50%, #040323);
+}
+.decormedium {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75vw;
+  height: 64vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #04fafd 5%, #199dff 50%, #040323);
+}
+.decorhard {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75vw;
+  height: 64vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #121c84 5%, #8278da 50%, #040323);
+}
+.decorimpossible {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75vw;
+  height: 64vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #38a2d7 5%, #561139 50%, #040323);
+}
+#hitbox {
+  width: 75vw;
+  height: 50vh;
+}
+#wave {
+  transform: rotateX(330deg) translateY(-27.34375vw);
+  position: absolute;
+  width: 167.13091922005572vh;
+  height: 26.041666666666668vw;
+  bottom: 0;
+  left: 0;
+
+  background-image: url("wave.png");
+  background-size: 139.27576601671308vh 6.510416666666667vw;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+.barret {
+  z-index: 2;
+  width: 75vw;
+  height: 5vh;
+  border: 2px solid black;
+  display: inherit;
+  background-color: black;
+  overflow: hidden;
+}
+.annonceur1 {
+  width: 53vw;
+  height: 5vh;
+  margin-left: 50px;
+  animation: txt1 5s linear infinite;
+  overflow: hidden;
+}
+@keyframes txt1 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(50%);
+    opacity: 0%;
+  }
+}
+.annonceur2 {
+  width: 53vw;
+  height: 5vh;
+  margin-left: 50px;
+  animation: txt2 5s linear infinite;
+  overflow: hidden;
+}
+@keyframes txt2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(50%);
+    opacity: 0%;
+  }
+}
+.annonceur3 {
+  width: 53vw;
+  height: 5vh;
+  margin-left: 50px;
+  animation: txt3 5s linear infinite;
+  overflow: hidden;
+}
+@keyframes txt3 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(50%);
+    opacity: 0%;
+  }
+}
+.annonceur4 {
+  width: 53vw;
+  height: 5vh;
+  margin-left: 50px;
+  animation: txt4 5s linear infinite;
+  overflow: hidden;
+}
+@keyframes txt4 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(50%);
+    opacity: 0%;
+  }
+}
+.pausefirst {
+  width: 10vw;
+  height: 2vh;
+  z-index: 2;
+}
+
+.pausesecond {
+  width: 10vw;
+  height: 2vh;
+  z-index: 2;
+}
+.pausethird {
+  width: 10vw;
+  height: 2vh;
+  z-index: 2;
+}
+.pausefourth {
+  width: 10vw;
+  height: 2vh;
+  z-index: 2;
+}
+#pause1 {
+  width: 1vw;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#pause2 {
+  width: 1vw;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#pause3 {
+  width: 1vw;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#pause4 {
+  width: 1vw;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#play1 {
+  height: 4vh;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#play2 {
+  height: 4vh;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#play3 {
+  height: 4vh;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+#play4 {
+  height: 4vh;
+  border: none;
+  background: none;
+  font-size: larger;
+  color: white;
+}
+.volume {
+  z-index: 2;
+  align-self: center;
+}
+#nommusique {
+  width: 10vw;
+  height: 4vh;
+  color: black;
+}
+#play1:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+
+#pause1:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#play2:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+
+#pause2:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#play3:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+
+#pause3:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#play4:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+
+#pause4:hover {
+  cursor: pointer;
+  color: #dce183;
+}
+#sub {
+  background-image: url("https://www.pngall.com/wp-content/uploads/2/Submarine-PNG-Image.png");
+  background-size: cover;
+  width: 90px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+#object {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object2 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object3 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  width: 50px;
+  height: 20px;
+  background-size: cover;
+  position: absolute;
+}
+#object4 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object5 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object6 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object7 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object8 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object9 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}
+#object10 {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/7/Missile-Rocket-Transparent-PNG.png");
+  background-size: cover;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+}

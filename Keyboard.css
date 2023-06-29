@@ -1,0 +1,63 @@
+.keyboard {
+  /* height: 100px;
+  width: 700px; */
+  height: 13.927576601671309vh;
+  width: 45.572916666666664vw;
+  grid-area: 1/2/1/2;
+  perspective: 1000px;
+  transform: translateX(-50px);
+}
+.azerty {
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: translateZ(200px) rotateX(320deg) translateY(80px);
+}
+.clavier {
+  transform-style: preserve-3d;
+  position: absolute;
+  border: solid black 1px;
+  background-color: #5a5e6b;
+  transform: translateX(20px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(50px);
+  /* width: 700px;
+  height: 100px; */
+  height: 13.927576601671309vh;
+  width: 45.572916666666664vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.front {
+  transform: rotateX(0deg) translateZ(50px);
+  /* width: 700px;
+  height: 50px; */
+  height: 6.963788300835654vh;
+  width: 45.572916666666664vw;
+}
+/* .bottom {
+  transform: rotateX(-90deg);
+  width: 700px;
+  height: 100px;
+}
+.left {
+  transform: rotateY(-90deg) translateZ(50px);
+  width: 100px;
+  height: 50px;
+}
+.right {
+  transform: rotateY(270deg) translateZ(-650px);
+  width: 100px;
+  height: 50px;
+}
+
+.back {
+  transform: rotateX(-180deg) translateZ(50px);
+  width: 700px;
+  height: 50px;
+} */
